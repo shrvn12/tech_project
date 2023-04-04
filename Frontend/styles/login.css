@@ -1,0 +1,136 @@
+.heading{
+    display: inline-block;
+    margin-top: 9%;
+    width: 100%;
+    text-align: center;
+    font-size: 50px;
+    font-weight: bolder;
+    margin-bottom: 1%;
+}
+
+.note{
+    width: 100%;
+    text-align: center;
+    margin-top: 1%;
+    color: rgb(36, 36, 36);
+}
+
+.oauth{
+    margin-top: 5%;
+    width: 100%;
+    margin-bottom: 2%;
+}
+
+.oauth>div{
+    width: 7%;
+    margin: auto;
+    display: flex;
+    justify-content: space-evenly;
+}
+
+.oauth img{
+    width: 45%;
+    cursor: pointer;
+}
+
+.inputdiv{
+    width: 35%;
+    margin: auto;
+    border-radius: 5px;
+    border-color: grey;
+    margin-top: 1%;
+}
+
+.password{
+    width: 35%;
+    margin: auto;
+    border: 1px solid;
+    border-radius: 3px;
+    border-color: grey;
+    margin-top: 1%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.inputdiv input{
+    display: block;
+    margin: auto;
+    width: 98%;
+    height: 50px;
+    border: 1px solid grey;
+    border-radius: 3px;
+    padding-left: 2%;
+}
+
+.password input{
+    width: 60%;
+    height: 50px;
+    padding-left: 2%;
+    border: 0px;
+    outline: 0px;
+}
+
+.password a{
+    font-size: small;
+    font-weight: bold;
+    margin-right: 2%;
+    text-decoration: underline;
+    color: rgb(66, 66, 66);
+}
+
+button{
+    width: 35%;
+    display: block;
+    margin: auto;
+    height: 52px;
+    background-color: red;
+    color: white;
+    border-radius: 3px;
+    margin-top: 1%;
+    border: 0px;
+    cursor: pointer;
+}
+
+.new_user{
+    width: 100%;
+    text-align: center;
+    color: rgb(70, 70, 70);
+    margin-bottom: 5%;
+}
+
+.new_user a{
+    color: rgb(70, 70, 70);
+    transition: 0.5s;
+}
+
+.new_user a:hover{
+    text-decoration: none;
+    color:  black;
+}
+
+.alertbox{
+    position: absolute;
+    height: 100px;
+    width: 20%;
+    background-color: red;
+    color: white;
+    z-index: 7;
+    margin: auto;
+    margin-top: 1%;
+    top: 0;
+    bottom: 0;
+    left: 0;
+    right: 0;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    border-radius: 30px;
+    display: none;
+    transition: 1s;
+}
+
+.alertbox>h3{
+    width: 100%;
+    text-align: center;
+}

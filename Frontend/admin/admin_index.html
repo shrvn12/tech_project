@@ -1,0 +1,935 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Wishlist</title>
+    <link rel="stylesheet" href="../styles/index.css">
+    <link rel="stylesheet" href="../styles/navbar.css">
+    <link rel="stylesheet" href="../styles/footer.css">
+    <link rel="stylesheet" href="../admin/styles/admin_index.css">
+    <link rel="icon" type="image/x-icon" href="../images/favicon-removebg-preview.png">
+</head>
+
+<style>
+
+</style>
+
+<body>
+
+    <div class="nav">
+
+        <div>
+            <img src="../images/favicon.jpg" alt="">
+        </div>
+
+        <div>
+
+            <div>
+                <a href="../product_gallery.html" target="_blank">Select</a>
+            </div>
+
+            <div>
+                <a href="" target="_blank">Search</a>
+            </div>
+
+            <div>
+                <a id="user">
+                    <img src="../svg's/profile-svgrepo-com.svg" alt="">
+                </a>
+                <div class="account">
+                    <h3 class="username">Name</h3>
+                    <button class="user_login">Logout</button>
+                </div>
+            </div>
+
+            <div>
+                <a href="../wishlist.html" target="_blank">
+                    <img src="../svg's/heart-svgrepo-com.svg" alt="">
+                </a> 
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="admin_msg">
+        <h2>Some message about the website</h2>
+    </div>
+
+    <div class="carousal_layout">
+        <div class="inputs">
+
+            <div>
+                <div class="links">
+                    <div>
+                        <input class="img" type="text" placeholder="Img Src">
+                        <input class="product" type="text" placeholder="Product ID"> 
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/DD-Desktop_1400x.jpg?v=1676020067" alt="">
+                </div>
+            </div>
+
+            <div>
+                <div class="links">
+                    <div>
+                        <input class="img" type="text" placeholder="Img Src">
+                        <input class="product" type="text" placeholder="Product ID"> 
+                    </div>
+                </div>
+                <div class="img">
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/DD-Desktop_1400x.jpg?v=1676020067" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div class="buttons">
+            <button>Add</button>
+            <button>Update</button>
+        </div>
+
+    </div>
+
+    <div class="carousal">
+        <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Desktop-192_55738f37-c97c-4e73-874a-dd117eb9a9a2_1400x.jpg?v=1676466626" alt="">
+
+        <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/DD-Desktop_1400x.jpg?v=1676020067" alt="">
+
+        <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/DC-Desktop-Banner_1400x.jpg?v=1676607577" alt="">
+
+        <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/trinity-web_c5e16c27-35b7-498b-a046-bdec250d517b_1400x.jpg?v=1676960518" alt="">
+
+        <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Desktop-192_55738f37-c97c-4e73-874a-dd117eb9a9a2_1400x.jpg?v=1676466626" alt="">
+    </div>
+
+    <div id="carousal_buttons">
+        <div class="1"></div>
+        <div class="2"></div>
+        <div class="3"></div>
+        <div class="4"></div>
+        <div class="5"></div>
+    </div>
+
+    <div class="cardsdiv">
+        <div>
+            <h3>Heading</h3>
+        </div>
+        <div class="cards">
+
+            <h1>Loading...</h1>
+
+            <!-- <div class="card">
+                <div>
+                    <div class="highlight">
+                        <h4>some highlight</h4>
+                    </div>
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/back_300x.png?v=1668599490" alt="">
+                </div>
+                <div>
+                    <h3>Title</h3>
+                    <h4>Price</h4>
+                    <hr>
+                    <p>description</p>
+                    <button>View More</button>
+                </div>
+            </div> -->
+
+        </div>
+    </div>
+
+    <div class="categorydiv">
+        <div>
+            <h3>Find by category</h3>
+        </div>
+
+        <div class="categories">
+
+            <div>
+                <div>
+                    <h4>Camera</h4>
+                </div>
+                <div>
+                    <img src="https://images.samsung.com/is/image/samsung/p6pim/in/2302/gallery/in-galaxy-s23-s918-sm-s918bzgcins-thumb-534863401?imwidth=480" alt="">
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <h4>Performance</h4>
+                </div>
+                <div>
+                    <img src="https://images.samsung.com/is/image/samsung/p6pim/in/sm-s911bzecins/gallery/in-galaxy-s23-s911-sm-s911bzecins-thumb-535265850?imwidth=480" alt="">
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <h4>Battery</h4>
+                </div>
+                <div>
+                    <img src="https://images.samsung.com/is/image/samsung/p6pim/in/sm-a146bzkiins/gallery/in-galaxy-a14-5g-sm-a146-446757-sm-a146bzkiins-534859529?$1300_1038_PNG$" alt="">
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <h4>Display</h4>
+                </div>
+                <div>
+                    <img src="https://images.samsung.com/is/image/samsung/p6pim/in/2302/gallery/in-galaxy-s23-s918-sm-s918bzecins-thumb-534863290?imwidth=480" alt="">
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <h4>Design</h4>
+                </div>
+                <div>
+                    <img src="https://images.samsung.com/is/image/samsung/p6pim/in/sm-s911bzgcins/gallery/in-galaxy-s23-s911-sm-s911bzgcins-thumb-535265890?imwidth=480" alt="">
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <h4>Multimedia</h4>
+                </div>
+                <div>
+                    <img src="https://images.samsung.com/is/image/samsung/p6pim/in/2302/gallery/in-galaxy-s23-s918-sm-s918bzecins-thumb-534863290?imwidth=480" alt="">
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <h4>Size</h4>
+                </div>
+                <div>
+                    <img src="https://images.samsung.com/is/image/samsung/p6pim/in/sm-a146blgiins/gallery/in-galaxy-a14-5g-sm-a146-446757-sm-a146blgiins-534859473?$650_519_PNG$" alt="">
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <h4>Flagship</h4>
+                </div>
+                <div>
+                    <img src="https://images.samsung.com/is/image/samsung/p6pim/in/2302/gallery/in-galaxy-s23-s918-sm-s918bzecins-thumb-534863290?imwidth=480" alt="">
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <h4>Midrange</h4>
+                </div>
+                <div>
+                    <img src="https://images.samsung.com/is/image/samsung/p6pim/in/sm-s911blicins/gallery/in-galaxy-s23-s911-sm-s911blicins-thumb-535265811?imwidth=480" alt="">
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <h4>Budget</h4>
+                </div>
+                <div>
+                    <img src="https://images.samsung.com/is/image/samsung/p6pim/in/sm-a146bzkiins/gallery/in-galaxy-a14-5g-sm-a146-446757-sm-a146bzkiins-534859529?$1300_1038_PNG$" alt="">
+                </div>
+            </div>
+
+        </div>
+
+        <div></div>
+    </div>
+
+    <div class="category_cards">
+        <div>
+            <h3>Best of brands</h3>
+        </div>
+        <div>
+            <div><h4>Ultimate Flagship</h4></div>
+            <div><h4>Flagship</h4></div>
+            <div><h4>Midrange</h4></div>
+            <div><h4>Budget</h4></div>
+        </div>
+
+        <div class="cards">
+
+            <div class="card">
+                <div>
+                    <div class="highlight">
+                        <h4>some highlight</h4>
+                    </div>
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/back_300x.png?v=1668599490" alt="">
+                </div>
+                <div>
+                    <h3>Title</h3>
+                    <h4>Price <h4 class="discount">Discount</h4></h4>
+                    <hr>
+                    <p>description</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <button>View More</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div>
+                    <div class="highlight">
+                        <h4>some highlight</h4>
+                    </div>
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/back_300x.png?v=1668599490" alt="">
+                </div>
+                <div>
+                    <h3>Title</h3>
+                    <h4>Price <h4 class="discount">Discount</h4></h4>
+                    <hr>
+                    <p>description</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <button>View More</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div>
+                    <div class="highlight">
+                        <h4>some highlight</h4>
+                    </div>
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/back_300x.png?v=1668599490" alt="">
+                </div>
+                <div>
+                    <h3>Title</h3>
+                    <h4>Price <h4 class="discount">Discount</h4></h4>
+                    <hr>
+                    <p>description</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <button>View More</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div>
+                    <div class="highlight">
+                        <h4>some highlight</h4>
+                    </div>
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/back_300x.png?v=1668599490" alt="">
+                </div>
+                <div>
+                    <h3>Title</h3>
+                    <h4>Price <h4 class="discount">Discount</h4></h4>
+                    <hr>
+                    <p>description</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <button>View More</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div>
+                    <div class="highlight">
+                        <h4>some highlight</h4>
+                    </div>
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/back_300x.png?v=1668599490" alt="">
+                </div>
+                <div>
+                    <h3>Title</h3>
+                    <h4>Price <h4 class="discount">Discount</h4></h4>
+                    <hr>
+                    <p>description</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <button>View More</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="slider">
+
+        <div class="slider_imgs">
+            <div>
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Bring_Your_World_On_Your_Wrist_446x360_66921214-c5ee-4bda-a433-f52b1c2124d4_445x.jpg?v=1672749745" alt="">
+            </div>
+
+            <div>
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/stone_1_445x.png?v=1670244742" alt="">
+            </div>
+
+            <div>
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/newsletter_carousel-banner_445x.png?v=1672738706" alt="">
+            </div>
+
+            <div>
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Bring_Your_World_On_Your_Wrist_446x360_66921214-c5ee-4bda-a433-f52b1c2124d4_445x.jpg?v=1672749745" alt="">
+            </div>
+
+            <div>
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Bring_Your_World_On_Your_Wrist_446x360_66921214-c5ee-4bda-a433-f52b1c2124d4_445x.jpg?v=1672749745" alt="">
+            </div>
+
+            <div>
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Bring_Your_World_On_Your_Wrist_446x360_66921214-c5ee-4bda-a433-f52b1c2124d4_445x.jpg?v=1672749745" alt="">
+            </div>
+
+            <div>
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Bring_Your_World_On_Your_Wrist_446x360_66921214-c5ee-4bda-a433-f52b1c2124d4_445x.jpg?v=1672749745" alt="">
+            </div>
+
+            <div>
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Bring_Your_World_On_Your_Wrist_446x360_66921214-c5ee-4bda-a433-f52b1c2124d4_445x.jpg?v=1672749745" alt="">
+            </div>
+        </div>
+
+    </div>
+
+    <div class="category_cards">
+        <div>
+            <h3>Smartphones</h3>
+        </div>
+        <div>
+            <div><h4>Performance</h4></div>
+            <div><h4>Camera</h4></div>
+            <div><h4>Design</h4></div>
+            <div><h4>Battery</h4></div>
+        </div>
+
+        <div class="cards">
+
+            <div class="card">
+                <div>
+                    <div class="highlight">
+                        <h4>some highlight</h4>
+                    </div>
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/back_300x.png?v=1668599490" alt="">
+                </div>
+                <div>
+                    <h3>Title</h3>
+                    <h4>Price <h4 class="discount">Discount</h4></h4>
+                    <hr>
+                    <p>description</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <button>View More</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div>
+                    <div class="highlight">
+                        <h4>some highlight</h4>
+                    </div>
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/back_300x.png?v=1668599490" alt="">
+                </div>
+                <div>
+                    <h3>Title</h3>
+                    <h4>Price <h4 class="discount">Discount</h4></h4>
+                    <hr>
+                    <p>description</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <button>View More</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div>
+                    <div class="highlight">
+                        <h4>some highlight</h4>
+                    </div>
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/back_300x.png?v=1668599490" alt="">
+                </div>
+                <div>
+                    <h3>Title</h3>
+                    <h4>Price <h4 class="discount">Discount</h4></h4>
+                    <hr>
+                    <p>description</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <button>View More</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div>
+                    <div class="highlight">
+                        <h4>some highlight</h4>
+                    </div>
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/back_300x.png?v=1668599490" alt="">
+                </div>
+                <div>
+                    <h3>Title</h3>
+                    <h4>Price <h4 class="discount">Discount</h4></h4>
+                    <hr>
+                    <p>description</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <button>View More</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div>
+                    <div class="highlight">
+                        <h4>some highlight</h4>
+                    </div>
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/back_300x.png?v=1668599490" alt="">
+                </div>
+                <div>
+                    <h3>Title</h3>
+                    <h4>Price <h4 class="discount">Discount</h4></h4>
+                    <hr>
+                    <p>description</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <button>View More</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="featured">
+
+        <div class="featured_card">
+            <div>
+                <div class="featured_highlight">
+                    <h4>Best of range</h4>
+                </div>
+
+                <video autoplay muted loop>
+                    <source src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/quinn_tjqgupK1iudW49p4vWtXd_25.mp4?v=2799798032104408483" type="video/mp4">
+                    <source src="movie.ogg" type="video/ogg">
+                  </video>
+            </div>
+            <div>
+                <div class="icon">
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/Wavebeatcall2.2_300x.png?v=1674561169" alt="">
+                </div>
+                <h3>TWS</h3>
+                <hr>
+                <p>Click to know more</p>
+                <h4><h4 class="featured_discount">Oppo</h4></h4>
+            </div>
+        </div>
+
+        <div class="featured_card">
+            <div>
+                <div class="featured_highlight">
+                    <h4>Ultimate experience</h4>
+                </div>
+
+                <video autoplay muted loop>
+                    <source src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/quinn_tjqgupK1iudW49p4vWtXd_25.mp4?v=2799798032104408483" type="video/mp4">
+                    <source src="movie.ogg" type="video/ogg">
+                  </video>
+            </div>
+            <div>
+                <div class="icon">
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/Wavebeatcall2.2_300x.png?v=1674561169" alt="">
+                </div>
+                <h3>Smart whatches</h3>
+                <hr>
+                <p>Click to know more</p>
+                <h4><h4 class="featured_discount">Samsung</h4></h4>
+            </div>
+        </div>
+
+        <div class="featured_card">
+            <div>
+                <div class="featured_highlight">
+                    <h4>Sleek Design</h4>
+                </div>
+
+                <video autoplay muted loop>
+                    <source src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/quinn_tjqgupK1iudW49p4vWtXd_25.mp4?v=2799798032104408483" type="video/mp4">
+                    <source src="movie.ogg" type="video/ogg">
+                  </video>
+            </div>
+            <div>
+                <div class="icon">
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/Wavebeatcall2.2_300x.png?v=1674561169" alt="">
+                </div>
+                <h3>Neckbands</h3>
+                <hr>
+                <p>Click to know more</p>
+                <h4><h4 class="featured_discount">Oneplus</h4></h4>
+            </div>
+        </div>
+
+        <div class="featured_card">
+            <div>
+                <div class="featured_highlight">
+                    <h4>Powerful Sound expo</h4>
+                </div>
+
+                <video autoplay muted loop>
+                    <source src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/quinn_tjqgupK1iudW49p4vWtXd_25.mp4?v=2799798032104408483" type="video/mp4">
+                    <source src="movie.ogg" type="video/ogg">
+                  </video>
+            </div>
+            <div>
+                <div class="icon">
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/Wavebeatcall2.2_300x.png?v=1674561169" alt="">
+                </div>
+                <h3>Head phones</h3>
+                <hr>
+                <p>Click to know more</p>
+                <h4><h4 class="featured_discount">JBL</h4></h4>
+            </div>
+        </div>
+
+        <div class="featured_card">
+            <div>
+                <div class="featured_highlight">
+                    <h4>Durable</h4>
+                </div>
+
+                <video autoplay muted loop>
+                    <source src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/quinn_tjqgupK1iudW49p4vWtXd_25.mp4?v=2799798032104408483" type="video/mp4">
+                    <source src="movie.ogg" type="video/ogg">
+                  </video>
+            </div>
+            <div>
+                <div class="icon">
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/Wavebeatcall2.2_300x.png?v=1674561169" alt="">
+                </div>
+                <h3>Earphones</h3>
+                <hr>
+                <p>Click to know more</p>
+                <h4><h4 class="featured_discount">Mivi</h4></h4>
+            </div>
+        </div>
+
+    </div>
+
+    <div class="banner">
+        <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/netfix_ui_png_desktop_2_1400x.png?v=1671621660" alt="">
+    </div>
+
+    <div class="category_cards">
+        <div>
+            <h3>Best of brands</h3>
+        </div>
+        <div>
+            <div><h4>Ultimate Flagship</h4></div>
+            <div><h4>Flagship</h4></div>
+            <div><h4>Midrange</h4></div>
+            <div><h4>Budget</h4></div>
+        </div>
+
+        <div class="cards">
+
+            <div class="card">
+                <div>
+                    <div class="highlight">
+                        <h4>some highlight</h4>
+                    </div>
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/back_300x.png?v=1668599490" alt="">
+                </div>
+                <div>
+                    <h3>Title</h3>
+                    <h4>Price <h4 class="discount">Discount</h4></h4>
+                    <hr>
+                    <p>description</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <button>View More</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div>
+                    <div class="highlight">
+                        <h4>some highlight</h4>
+                    </div>
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/back_300x.png?v=1668599490" alt="">
+                </div>
+                <div>
+                    <h3>Title</h3>
+                    <h4>Price <h4 class="discount">Discount</h4></h4>
+                    <hr>
+                    <p>description</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <button>View More</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div>
+                    <div class="highlight">
+                        <h4>some highlight</h4>
+                    </div>
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/back_300x.png?v=1668599490" alt="">
+                </div>
+                <div>
+                    <h3>Title</h3>
+                    <h4>Price <h4 class="discount">Discount</h4></h4>
+                    <hr>
+                    <p>description</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <button>View More</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div>
+                    <div class="highlight">
+                        <h4>some highlight</h4>
+                    </div>
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/back_300x.png?v=1668599490" alt="">
+                </div>
+                <div>
+                    <h3>Title</h3>
+                    <h4>Price <h4 class="discount">Discount</h4></h4>
+                    <hr>
+                    <p>description</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <button>View More</button>
+                </div>
+            </div>
+
+            <div class="card">
+                <div>
+                    <div class="highlight">
+                        <h4>some highlight</h4>
+                    </div>
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/back_300x.png?v=1668599490" alt="">
+                </div>
+                <div>
+                    <h3>Title</h3>
+                    <h4>Price <h4 class="discount">Discount</h4></h4>
+                    <hr>
+                    <p>description</p>
+                    <p>Lorem ipsum dolor sit amet.</p>
+                    <button>View More</button>
+                </div>
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="explore_cards">
+
+        <div>
+            <div>
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/New_6d6c1b24-4044-4cb1-8710-76d572438579.jpg?v=1665574286" alt="">
+            </div>
+            <div>
+                <h3>Explore Now</h3>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Xtend_2e659993-1b3b-4783-8700-57f824715fbf.jpg?v=1665574331" alt="">
+            </div>
+            <div>
+                <h3>Explore Now</h3>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Immortal-121.jpg?v=1671621358" alt="">
+            </div>
+            <div>
+                <h3>Explore Now</h3>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/AD113.jpg?v=1665574303" alt="">
+            </div>
+            <div>
+                <h3>Explore Now</h3>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/Grenade.jpg?v=1666249978" alt="">
+            </div>
+            <div>
+                <h3>Explore Now</h3>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/New_6d6c1b24-4044-4cb1-8710-76d572438579.jpg?v=1665574286" alt="">
+            </div>
+            <div>
+                <h3>Explore Now</h3>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/New_6d6c1b24-4044-4cb1-8710-76d572438579.jpg?v=1665574286" alt="">
+            </div>
+            <div>
+                <h3>Explore Now</h3>
+            </div>
+        </div>
+
+    </div>
+
+    <!-- <div class="blog">
+        <div>
+            <h3>Blogs</h3>
+        </div>
+        <div class="blogs">
+
+            <div>
+                <div>
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/blog_3_600x.webp?v=1663587423" alt="">
+                </div>
+                <div>
+                    <h3>
+                        Some title for blog
+                    </h3>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/blog_3_600x.webp?v=1663587423" alt="">
+                </div>
+                <div>
+                    <h3>
+                        Some title for blog
+                    </h3>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/blog_3_600x.webp?v=1663587423" alt="">
+                </div>
+                <div>
+                    <h3>
+                        Some title for blog
+                    </h3>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/blog_3_600x.webp?v=1663587423" alt="">
+                </div>
+                <div>
+                    <h3>
+                        Some title for blog
+                    </h3>
+                </div>
+            </div>
+            
+        </div>
+    </div> -->
+
+    <div class="bottom_banner">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus sit, aliquid quibusdam amet dolorem deserunt, odit optio delectus quis impedit, earum magni incidunt voluptas. Ducimus deserunt accusamus voluptatibus illo labore, aperiam id sequi obcaecati ex!</p>
+    </div>
+
+    <div class="footer">
+        <div>
+            <img src="./images/favicon-removebg-preview.png" alt="">
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, rem.</p> -->
+
+            <div>
+                <input type="text" placeholder="Email Address*">
+                <button>SUBSCRIBE</button>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <h4>Shop</h4>
+            </div>
+            <div>
+                <div>
+                    <p>True Wireless Earbuds</p> 
+                    <p>Wired Headphones</p> 
+                    <p>Home Audio</p> 
+                    <p>Smart Watches</p> 
+                    <p>Misfit</p> 
+                    <p>Earn ₹100</p> 
+                </div>
+                <div>
+                    <p>Wireless Headphones</p>
+                    <p>Wireless Speakers</p>
+                    <p>Mobile Accessories</p>
+                    <p>TRebel</p>
+                    <p>Gift Card</p>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <h4>Help</h4>
+            </div>
+            <div>
+                <div>
+                    <p>Track Your Order</p> 
+                    <p>Return Policy</p> 
+                    <p>Bulk Orders</p> 
+                    <p>Why Buy Direct</p> 
+                </div>
+                <div>
+                    <p>Warranty & Support</p> 
+                    <p>Service Centers</p> 
+                    <p>FAQs</p> 
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h4>COMPANY</h4>
+            <p>About boAt</p> 
+            <p>News</p> 
+            <p>Read Our Blog</p> 
+            <p>Careers</p> 
+            <p>Security</p> 
+            <p>Terms of Service</p> 
+            <p>Privacy Policy</p> 
+            <p>Investor Relations</p> 
+            <p>Social Responsibility</p> 
+            <p>Warranty Policy</p> 
+        </div>
+    </div>
+
+    <div class="bottom_section">
+        <div>
+
+        </div>
+
+        <div>
+            <div>
+                <h3>Downlaod the app</h3>
+
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/google-play-store_new.png?v=1666071594" alt="">
+
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/app-store_new_96c42e79-8764-4292-885a-dc793dde4655.png?v=1666071566" alt="">
+
+            </div>
+
+            <div>
+                <h3>We Accept</h3>
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/g_54cc0f26-12a4-4bd1-adca-676746073e7a_617x.png?v=1674109066" alt="">
+            </div>
+        </div>
+
+        <div>
+            <p>
+                © 2023 Imagine Marketing Limited. All Rights Reserved.
+            </p>
+            <br>
+            <br>
+            <h5>For queries contact us</h5><p>: Manager, Imagine Marketing Limited Unit no. 204 & 205, 2nd floor, D-wing & E-wing,
+            Corporate Avenue, Andheri Ghatkopar Link Road, Mumbai, Maharashtra-400093, India</p>
+        </div>
+    </div>
+</body> 
+</html>
+
+<script src="../scripts/index.js"></script>
+<script src="../scripts/navbar.js"></script>

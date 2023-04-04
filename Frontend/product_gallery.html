@@ -1,0 +1,408 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Products Gallery</title>
+    <link rel="stylesheet" href="./styles/navbar.css">
+    <link rel="stylesheet" href="./styles/gallery.css">
+    <link rel="stylesheet" href="./styles/footer.css">
+    <link rel="icon" type="image/x-icon" href="./images/favicon-removebg-preview.png">
+</head>
+<body>
+    <div class="nav">
+
+        <div>
+            <img src="./images/favicon.jpg" alt="">
+        </div>
+
+        <div>
+
+            <div>
+                <a href="./product_gallery.html" target="_blank">Select</a>
+            </div>
+
+            <div>
+                <a href="" target="_blank">Search</a>
+            </div>
+
+            <div>
+                <a id="user">
+                    <img src="./svg's/profile-svgrepo-com.svg" alt="">
+                </a>
+                <div class="account">
+                    <h3 class="username">Name</h3>
+                    <button class="user_login">Logout</button>
+                </div>
+            </div>
+
+            <div>
+                <a href="./wishlist.html" target="_blank">
+                    <img src="./svg's/heart-svgrepo-com.svg" alt="">
+                </a> 
+            </div>
+
+        </div>
+
+    </div>
+
+    <div class="filter">
+        <div class="filter1">
+            <select id="brand">
+                <option value="" selected>Brand</option>
+                <option value="samsung">Samsung</option>
+                <option value="apple">Apple</option>
+                <option value="xiaomi">Xiaomi</option>
+                <option value="tecno">Tecno</option>
+                <option value="motorola">Motorola</option>
+            </select>
+            <br>
+            <select id="range">
+                <option value="" selected>Range</option>
+                <option value="ultimateflagship">Ultimate Flagship</option>
+                <option value="flagship">Flagship</option>
+                <option value="uppermidrange">Upper Midrange</option>
+                <option value="midrange">Midrange</option>
+                <option value="budget">Budget</option>
+            </select>
+            <br>
+            <select id="category">
+                <option value="" selected>Category</option>
+                <option value="camera">Camera</option>
+                <option value="power">Power & Battery</option>
+                <option value="performance">Performance</option>
+                <option value="multimedia">Multimedia</option>
+                <option value="durability">Durability</option>
+            </select>
+        </div>
+
+        <div class="filter2">
+            <select id="processor">
+                <option value="" selected>Processor</option>
+                <option value="snapdragon">Qualcomm Snapdragon</option>
+                <option value="mediatek">MediaTek</option>
+                <option value="unisoc">Unisoc</option>
+            </select>
+            <br>
+            <select id="ram">
+                <option value="" selected>RAM</option>
+                <option value="16">16GB</option>
+                <option value="12">12GB</option>
+                <option value="8">8GB</option>
+                <option value="6">6GB</option>
+                <option value="4">4GB</option>
+                <option value="2">2GB</option>
+            </select>
+            <br>
+            <select id="storage">
+                <option value="" selected>Storage</option>
+                <option value="1024">1TB</option>
+                <option value="512">512GB</option>
+                <option value="256">256GB</option>
+                <option value="128">128GB</option>
+                <option value="64">64GB</option>
+                <option value="32">32GB</option>
+            </select>
+        </div>
+
+        <div class="filter3">
+            <select id="display_type">
+                <option value="" selected>Display Type</option>
+                <option value="amoled">Amoled</option>
+                <option value="lcd">LCD</option>
+                <option value="tft">TFT</option>
+            </select>
+            <br>
+            <select id="display_size">
+                <option value="" selected>Size</option>
+                <option value="6.8">6.8"</option>
+                <option value="6.7">6.7"</option>
+                <option value="6.6">6.6"</option>
+                <option value="6.5">6.5"</option>
+                <option value="6.4">6.4"</option>
+                <option value="6.3">6.3"</option>
+                <option value="6.2">6.2"</option>
+                <option value="6.1">6.1"</option>
+            </select>
+            <br>
+            <div>
+                <button id="reset">Reset</button>
+                <button id="apply">Apply</button>
+            </div>
+        </div>
+    </div>
+
+    <div class="gallery">
+
+        <!-- <h1>Loading...</h1> -->
+
+        <!-- ================================Syntax====== -->
+
+        <!-- <div>
+            <div>
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/products/cream_300x.png?v=1668756103" alt="">
+            </div>
+            <div>
+                <h3>Title</h3>
+                <h3>price</h3> <h3>discount</h3>
+                <hr>
+                <div class="colours">
+                        <div>
+                            <img src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1672740794.53385063.jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1672740812.0287059.jpg" alt="">
+                        </div>
+                        <div>
+                            <img src="https://i01.appmifile.com/v1/MI_18455B3E4DA706226CF7535A58E875F0267/pms_1672740832.1415277.jpg" alt="">
+                        </div>
+                </div>
+                <p>offers</p>
+                <button>Add to cart</button>
+            </div>
+        </div> -->
+
+        <!-- ============================================= -->
+
+    </div>
+
+    <!-- <div class="article">
+        <h1>
+            Airdopes - The Top Rated Bluetooth Earbuds in the Market
+        </h1>
+
+        <p>
+            Airdopes offer the most incredible listening experience with revolutionary design. Truly in ear wireless with no cables, no connectors, and no hassles. Designed for comfort and unstoppable music, always remain on your toes as Airdopes brings to you the dopest tech there is out there!
+            <br>
+            <br>
+            Powered with boAt's Insta Wake n' Pair™ technology & ASAP™ Fast Charge, these true wireless earbuds power on and connect instantly right out of the charging case. No more going into settings to find and pair the device, welcome to the new era of seamless, instant connection. 
+            <br>
+            <br>
+            boAt Airdopes come with passive and active noise cancellation technology that cancels out external noise, delivering only the sound of your media to your ears. No longer will there be any interference from external sources. Airdopes are designed and perfected for superior calls and entertainment. These wireless earbuds come with massive drivers that deliver superior sound, sound that is unmatched and inimitable.
+            <br>
+            <br>
+            Made from fine and premium materials, these bluetooth earbuds are made to be comfortable and secure. You can choose from a variety of silicone tips provided to adjust accordingly and ensure a supreme and comfortable fit based on how you want your experience to be.
+            <br>
+            <br>
+            Love adventure? Airdopes are here for you. The IPX rating ensures all the mechanical parts are tightly enclosed in an airtight housing that prevents water, sweat from seeping into the earbuds. No longer do you have to worry about damaging a device. Airdopes are rugged and sturdy, able to take on anything that is thrown at it. Make the best of your day without worry.
+            <br>
+            <br>
+            Airdopes are perfect for WFH calls or meetings. Microphones are placed in key locations on the earbuds that accurately picks up your voice while cancelling out background noise. The result is a clear and crisp voice and a consistent experience. Moreover, with the latest Bluetooth technology, pairing instantly with multiple devices while switching between those devices has never been easier. Simplicity and elegance define Airdopes.
+            <br>
+            <br>
+            Sound with unmatched style. Airdopes are available in a variety of colours that bring the latest fashion trends to the forefront. The variety of colours available make Airdopes the earbuds to die for.
+            <br>
+            <br>
+            Style it up with our best earbuds, the new way to flaunt your vibe! From the Queen of Prints, Masaba's funky take on our Airdopes 441 wireless earbuds, to our TRebel range of earbuds, only for women - boAt is bringing to you crazy new feats every passing day. Magic and Music are synonymous when you plug in the Airdopes earphones!
+        </p>
+
+
+    </div>
+
+    <div class="faq">
+        <h1>
+           FAQ 
+        </h1>
+        
+ 
+        <h4>
+            Q. Do wireless earbuds work with all phones?
+        </h4>
+        <p>
+            Yes, our wireless earbuds work with all phones with Bluetooth. boAt Airdopes connect instantly and give a seamless connection for the ultimate musical experience.
+        </p>
+        <br>
+        <h4>
+            Q. What is the difference between wireless and truly wireless earbuds?
+        </h4>
+
+        <p>
+            Wireless earbuds are audio devices that connect to your Phone/Tablet/PC wirelessly, and the left and the right earpiece are connected via a wire. Truly wireless earbuds on the other hand have no wires at all.
+        </p>
+        <br>
+        <h4>
+            Q. Can wireless earbuds be used individually?
+        </h4>
+
+        <p>
+            Yes, wireless earphones can be used individually. With wireless earbuds, you can keep one in the case and one plugged in your ear and still use it to groove to your music.
+        </p>
+        <br>
+        <h4>
+            Q. How to know that wireless earbuds are fully charged?
+        </h4>
+
+        <p>
+            boAt Airdopes will have led indicators on the charging case to show if the battery is fully charged. The LED indicators on the wireless earbuds vary from model to model. Please refer to the manual of the earbuds in the respective packaging for precise instructions.
+        </p>
+        <br>
+
+        <h4>
+            Q. How long does earbuds' battery last?
+        </h4>
+        <p>
+            boAt earbuds battery backup varies from model to model. It also gets affected by the volume at which you listen to music on your wireless earbuds. Please refer to the manual of the earbuds in the respective packaging for precise specifications.
+        </p>
+    </div> -->
+
+    <!-- <div class="blog">
+        <div>
+            <h3>Blogs</h3>
+        </div>
+        <div class="blogs">
+
+            <div>
+                <div>
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/blog_3_600x.webp?v=1663587423" alt="">
+                </div>
+                <div>
+                    <h3>
+                        Some title for blog
+                    </h3>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/blog_3_600x.webp?v=1663587423" alt="">
+                </div>
+                <div>
+                    <h3>
+                        Some title for blog
+                    </h3>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/blog_3_600x.webp?v=1663587423" alt="">
+                </div>
+                <div>
+                    <h3>
+                        Some title for blog
+                    </h3>
+                </div>
+            </div>
+
+            <div>
+                <div>
+                    <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/blog_3_600x.webp?v=1663587423" alt="">
+                </div>
+                <div>
+                    <h3>
+                        Some title for blog
+                    </h3>
+                </div>
+            </div>
+            
+        </div>
+    </div> -->
+
+    <div class="bottom_banner">
+        <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Necessitatibus sit, aliquid quibusdam amet dolorem deserunt, odit optio delectus quis impedit, earum magni incidunt voluptas. Ducimus deserunt accusamus voluptatibus illo labore, aperiam id sequi obcaecati ex!</p>
+    </div>
+
+    <div class="footer">
+        <div>
+            <img src="./images/favicon-removebg-preview.png" alt="">
+            <!-- <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Animi, rem.</p> -->
+
+            <div>
+                <input type="text" placeholder="Email Address*">
+                <button>SUBSCRIBE</button>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <h4>Shop</h4>
+            </div>
+            <div>
+                <div>
+                    <p>True Wireless Earbuds</p> 
+                    <p>Wired Headphones</p> 
+                    <p>Home Audio</p> 
+                    <p>Smart Watches</p> 
+                    <p>Misfit</p> 
+                    <p>Earn ₹100</p> 
+                </div>
+                <div>
+                    <p>Wireless Headphones</p>
+                    <p>Wireless Speakers</p>
+                    <p>Mobile Accessories</p>
+                    <p>TRebel</p>
+                    <p>Gift Card</p>
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <div>
+                <h4>Help</h4>
+            </div>
+            <div>
+                <div>
+                    <p>Track Your Order</p> 
+                    <p>Return Policy</p> 
+                    <p>Bulk Orders</p> 
+                    <p>Why Buy Direct</p> 
+                </div>
+                <div>
+                    <p>Warranty & Support</p> 
+                    <p>Service Centers</p> 
+                    <p>FAQs</p> 
+                </div>
+            </div>
+        </div>
+
+        <div>
+            <h4>COMPANY</h4>
+            <p>About boAt</p> 
+            <p>News</p> 
+            <p>Read Our Blog</p> 
+            <p>Careers</p> 
+            <p>Security</p> 
+            <p>Terms of Service</p> 
+            <p>Privacy Policy</p> 
+            <p>Investor Relations</p> 
+            <p>Social Responsibility</p> 
+            <p>Warranty Policy</p> 
+        </div>
+    </div>
+
+    <div class="bottom_section">
+        <div>
+
+        </div>
+
+        <div>
+            <div>
+                <h3>Downlaod the app</h3>
+
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/google-play-store_new.png?v=1666071594" alt="">
+
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/app-store_new_96c42e79-8764-4292-885a-dc793dde4655.png?v=1666071566" alt="">
+
+            </div>
+
+            <div>
+                <h3>We Accept</h3>
+                <img src="https://cdn.shopify.com/s/files/1/0057/8938/4802/files/g_54cc0f26-12a4-4bd1-adca-676746073e7a_617x.png?v=1674109066" alt="">
+            </div>
+        </div>
+
+        <div>
+            <p>
+                © 2023 Imagine Marketing Limited. All Rights Reserved.
+            </p>
+            <br>
+            <br>
+            <h5>For queries contact us</h5><p>: Manager, Imagine Marketing Limited Unit no. 204 & 205, 2nd floor, D-wing & E-wing,
+            Corporate Avenue, Andheri Ghatkopar Link Road, Mumbai, Maharashtra-400093, India</p>
+        </div>
+    </div>
+</body>
+</html>
+<script src="./scripts/gallery.js"></script>
+<script src="./scripts/navbar.js"></script>

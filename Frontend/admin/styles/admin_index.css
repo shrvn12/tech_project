@@ -1,0 +1,66 @@
+.carousal_layout{
+    width: 90%;
+    margin: auto;
+    /* border: 1px solid; */
+    margin-top: 2%;
+    height: 300px;
+}
+
+.inputs{
+    height: 80%;
+    overflow-y: scroll;
+    border: 2px solid grey;
+    border-radius: 5px;
+    background-color: rgb(151, 151, 151);
+}
+
+.buttons{
+    height: 20%;
+    /* border: 1px solid; */
+    display: flex;
+    justify-content: right;
+    align-items: center;
+}
+
+.buttons>button{
+    width: 15%;
+    height: 80%;
+    margin-right: 2%;
+}
+
+.inputs>div{
+    width: 90%;
+    margin: auto;
+    /* border: 1px solid; */
+    margin-top: 2%;
+    margin-bottom: 2%;
+    display: flex;
+}
+
+.inputs>div>div{
+    width: 50%;
+}
+
+.inputs>div>div:nth-child(1){
+    display: flex;
+    align-items: center;
+}
+
+.inputs>div>div>div{
+    width: 100%;
+    /* border: 1px solid; */
+}
+
+.inputs img{
+    width: 100%;
+    display: block;
+    border-radius: 10px;
+}
+
+.inputs>div>div>div>input{
+    display: block;
+    width: 90%;
+    height: 30px;
+    margin: auto;
+    margin-top: 1%;
+}
